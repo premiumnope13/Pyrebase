@@ -33,14 +33,12 @@ all_agents = db.child("orders").get(user['idToken']).val()
 
 cars = ["BWW","FIAT","HONDA"]
 print (cars)
+#READ TROUGH ARRAY
 for i in range(len(cars)):
   print (cars[i])
+#READ TROUGH DIRECTORY
 for  i in all_agents:
      
      n = ( all_agents[i]['fullname']) 
      print (n)
 
-colors = ["red","green","blue"]
-
-for i in range(len(colors)):
-  print (colors[i])
