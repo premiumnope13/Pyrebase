@@ -1,10 +1,10 @@
 import pyrebase
 
 config = {
-  "apiKey": "AIzaSyBsrnOhng4Zp3dYcraVtx_eM8vKN9lIhDs",
-  "authDomain": "test-nodemcu-5ea41.firebaseapp.com",
-  "databaseURL": "https://test-nodemcu-5ea41.firebaseio.com",
-  "projectId": "test-nodemcu-5ea41",
+  "apiKey": "",
+  "authDomain": "",
+  "databaseURL": "",
+  "projectId": "",
   "storageBucket": ""
 }
 
@@ -12,7 +12,7 @@ firebase = pyrebase.initialize_app(config)
 
 auth = firebase.auth() 
 #authenticate a user
-user = auth.sign_in_with_email_and_password("budi.aulian.h@gmail.com", "Gjwzjbsajkrf1234")
+user = auth.sign_in_with_email_and_password("", "")
 
 db = firebase.database()
 user = auth.refresh(user['refreshToken'])
