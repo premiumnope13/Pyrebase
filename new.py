@@ -1,10 +1,10 @@
 import pyrebase
 
 config = {
-  "apiKey": "AIzaSyBsrnOhng4Zp3dYcraVtx_eM8vKN9lIhDs",
-  "authDomain": "test-nodemcu-5ea41.firebaseapp.com",
-  "databaseURL": "https://test-nodemcu-5ea41.firebaseio.com",
-  "storageBucket": "test-nodemcu-5ea41"
+  "apiKey": "",
+  "authDomain": "",
+  "databaseURL": "",
+  "storageBucket": ""
 }
 
 firebase = pyrebase.initialize_app(config)
