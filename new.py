@@ -42,10 +42,8 @@ for  i in all_agents:
      n = ( all_agents[i]['fullname']) 
      print (n)
 
-<<<<<<< HEAD
-=======
+
 colors = ["red","green","blue"]
 
 for i in range(len(colors)):
   print (colors[i])
->>>>>>> 63a628bdcf17910f232d9e69979f44fb9994634e
