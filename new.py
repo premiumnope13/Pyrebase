@@ -1,17 +1,17 @@
 import pyrebase
 
 config = {
-  "apiKey": "AIzaSyBsrnOhng4Zp3dYcraVtx_eM8vKN9lIhDs",
-  "authDomain": "test-nodemcu-5ea41.firebaseapp.com",
-  "databaseURL": "https://test-nodemcu-5ea41.firebaseio.com",
-  "storageBucket": "test-nodemcu-5ea41"
+  "apiKey": "",
+  "authDomain": "",
+  "databaseURL": "",
+  "storageBucket": ""
 }
 
 firebase = pyrebase.initialize_app(config)
 
 auth = firebase.auth() 
 #authenticate a user
-user = auth.sign_in_with_email_and_password("budi.aulian.h@gmail.com", "Gjwzjbsajkrf1234")
+user = auth.sign_in_with_email_and_password("budi.aulian.h@gmail.com", "")
 
 db = firebase.database()
 user = auth.refresh(user['refreshToken'])
@@ -42,3 +42,10 @@ for  i in all_agents:
      n = ( all_agents[i]['fullname']) 
      print (n)
 
+<<<<<<< HEAD
+=======
+colors = ["red","green","blue"]
+
+for i in range(len(colors)):
+  print (colors[i])
+>>>>>>> 63a628bdcf17910f232d9e69979f44fb9994634e
