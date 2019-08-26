@@ -11,7 +11,7 @@ firebase = pyrebase.initialize_app(config)
 
 auth = firebase.auth() 
 #authenticate a user
-user = auth.sign_in_with_email_and_password("budi.aulian.h@gmail.com", "Gjwzjbsajkrf1234")
+user = auth.sign_in_with_email_and_password("budi.aulian.h@gmail.com", "")
 
 db = firebase.database()
 user = auth.refresh(user['refreshToken'])
