@@ -1,3 +1,6 @@
+#Script to send Raspberry temperature data into Firebase Realtime Database using Pyrebase Library
+
+
 import pyrebase
 import os
 import time
